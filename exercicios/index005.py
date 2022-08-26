@@ -1,0 +1,7 @@
+n1=int(input("Digite um valor: "))
+n2=int(input("Digite um valo: "))
+print("O valor da conta é {} ".format(n1+n2))
+print("Divisão inteira é {} e a pontecia é {}".format(n1//n2, n1**n2))
+print("Divisão do valor é {:.2f}".format(n1/n2))
+print("Resto da divisão é {}".format(n1%n2))
+print("Raiz quadrada do primeiro valor é {:.2f} \ne do segundo é {:.2f}".format(n1**(1/2), n2**(1/2)), end=">>>")
